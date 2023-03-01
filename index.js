@@ -9,7 +9,7 @@ const questions = [
     {
         type: "input",
         message: "What is the title of your project?",
-        name: "project title",
+        name: "projectTitle",
         default: "Project Title Sample",
     },
     {
@@ -21,7 +21,7 @@ const questions = [
     {
         type: "confirm",
         message: "Would you like a table of contents in your README?",
-        name: "table of Contents",
+        name: "tableOfContents",
         default: false
     },
     {
