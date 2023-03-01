@@ -48,9 +48,102 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  // Generate the table of contents
+  let tableOfContents = '';
+  if (data.tableOfContents) {
+    tableOfContents = `
+      ## Table of Contents
 
-`;
+      * [Installation](#installation)
+      * [Usage](#usage)
+      * [Contributing](#contributing)
+      * [Tests](#tests)
+      * [License](#license)
+    `;
+  }
+
+  // Generate the collaborator list
+  let collaborators = '';
+  if (data.collaborators) {
+    collaborators = `
+      ## Collaborators
+
+      ${data.collaborators}
+    `;
+  }
+
+  // Generate the third-party assets list
+  let thirdPartyAssets = '';
+  if (data['3rd Party Assets']) {
+    thirdPartyAssets = `
+      ## Third-Party Assets
+
+      ${data['3rd Party Assets']}
+    `;
+  }
+
+  // Generate the contribution guidelines
+  let contribute = '';
+  if (data.contribute) {
+    contribute = `
+      ## Contributing
+
+      ${data.contribute}
+    `;
+  }
+
+  // Generate the testing instructions
+  let testing = '';
+  if (data.testing) {
+    testing = `
+      ## Tests
+
+     ${data.testing}
+    `;
+  }
+
+  // Generate the license badge and link
+  const licenseBadge = renderLicenseBadge(data.license);
+  const licenseLink = renderLicenseLink(data.license);
+
+  // Generate the license section
+  const licenseSection = renderLicenseSection(data.license);
+
+  // Combine all the sections into the final markdown string
+  return `# ${data.projectTitle}
+
+  ${licenseBadge}
+
+  ## Description
+
+  ${data.description}
+
+  ${tableOfContents}
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ${collaborators}
+
+  ${thirdPartyAssets}
+
+  ${contribute}
+
+  ${testing}
+
+  ${licenseLink}
+
+  ${licenseSection}
+
+  ## Questions
+
+  For questions about this project, please see my GitHub at [${data.github}](https://github.com/${data.github}), or reach out by email at ${data.email}.
+  `;
 }
 
 module.exports = generateMarkdown;
