@@ -1,6 +1,6 @@
 # asd
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
   ## Description
 
@@ -21,40 +21,32 @@
 
   ## Installation
 
-  asd
+  asdf
 
   ## Usage
 
-  asd
+  asdf
 
   
   ## Collaborators
 
-  asd
+  asdf
   
 
   
   ## Third-Party Assets
 
-  asd
+  asdf
   
 
   
-  ## Contributing
 
-  asd
-  
-
-  
-  ## Tests
-
-  asd
   
 
   ## License
-    This project is licensed under the GPL v3 license.
+    This project is licensed under the MIT license.
 
   ## Questions
 
-  For questions about this project, please see my GitHub at [asd](https://github.com/asd), or reach out by email at asd.
+  For questions about this project, please see my GitHub at [In this section a GitHub profile should be provided; this is a sample section.](https://github.com/In this section a GitHub profile should be provided; this is a sample section.), or reach out by email at In this section a contact email should be provided; this is a sample section..
   
