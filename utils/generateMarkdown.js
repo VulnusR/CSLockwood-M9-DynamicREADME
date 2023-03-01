@@ -22,7 +22,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
-      return '[MIT](https://opensource.org/licenses/MIT)';
+      return '(https://opensource.org/licenses/MIT)';
     case 'Apache License 2.0':
       return '[Apache License 2.0](https://opensource.org/licenses/Apache-2.0)';
     case 'Berkeley Software Distribution':
@@ -115,7 +115,7 @@ function generateMarkdown(data) {
   // Combine all the sections into the final markdown string
   return `# ${data.projectTitle}
 
-  [${licenseBadge}](${licenseLink}) 
+  [!${licenseBadge}](${licenseLink}) 
 
   ## Description
 
@@ -138,8 +138,6 @@ function generateMarkdown(data) {
   ${contribute}
 
   ${testing}
-
-  ${licenseLink}
 
   ${licenseSection}
 
