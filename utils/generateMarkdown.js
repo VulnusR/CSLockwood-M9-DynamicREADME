@@ -68,41 +68,41 @@ function generateMarkdown(data) {
   // Generate the collaborator list
   let collaborators = '';
   if (data.collaborators) {
-    collaborators = `
-    ## Collaborators
+  collaborators = `
+  ## Collaborators
 
-    ${data.collaborators}
-    `;
+  ${data.collaborators}
+  `;
   }
 
   // Generate the third-party assets list
   let thirdPartyAssets = '';
   if (data['3rd-Party-Assets']) {
-    thirdPartyAssets = `
-    ## Third-Party Assets
+  thirdPartyAssets = `
+  ## Third-Party Assets
 
-    ${data['3rd-Party-Assets']}
-    `;
+  ${data['3rd-Party-Assets']}
+  `;
   }
 
   // Generate the contribution guidelines
   let contribute = '';
   if (data.contribute) {
-    contribute = `
-    ## Contributing
+  contribute = `
+  ## Contributing
 
-    ${data.contribute}
-    `;
+  ${data.contribute}
+  `;
   }
 
   // Generate the testing instructions
   let testing = '';
   if (data.testing) {
-    testing = `
-    ## Tests
+  testing = `
+  ## Tests
 
-    ${data.testing}
-    `;
+  ${data.testing}
+  `;
   }
 
   // Generate the license badge and link
