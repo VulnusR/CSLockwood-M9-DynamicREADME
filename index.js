@@ -57,7 +57,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.",
+        message: "If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. If not, leave blank.",
         name: "contribute",
         default: null
     },
