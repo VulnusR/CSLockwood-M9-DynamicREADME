@@ -88,12 +88,23 @@ function writeToFile(fileName, data) {
             console.log(err);
             return;
         }
-        console.log('README Generated');
+        console.log('README written to file.');
     });
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+      const readmeContent = generateMarkdown(answers);
+      fs.writeFile("README.md", readmeContent, (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("README generated!");
+        }
+      });
+    });
+  }
 
 // Function call to initialize app
 init();
