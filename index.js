@@ -52,7 +52,6 @@ const questions = [
         type: "list",
         message: "What license would you prefer to use for this project?",
         name: "license",
-        default: "MIT",
         choices: ['MIT', 'Apache License 2.0', 'Berkeley Software Distribution', 'GPL v3', 'MPL 2.0'],
     },
     {

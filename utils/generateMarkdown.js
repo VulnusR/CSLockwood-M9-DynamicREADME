@@ -12,6 +12,9 @@ function renderLicenseBadge(license) {
       return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
     case 'MPL 2.0':
       return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)';
+    default:
+      return '';
+  }
 }
 
 // TODO: Create a function that returns the license link
