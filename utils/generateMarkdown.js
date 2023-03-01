@@ -115,7 +115,7 @@ function generateMarkdown(data) {
   // Combine all the sections into the final markdown string
   return `# ${data.projectTitle}
 
-  ${licenseBadge}
+  [${licenseBadge}](${licenseLink}) 
 
   ## Description
 
