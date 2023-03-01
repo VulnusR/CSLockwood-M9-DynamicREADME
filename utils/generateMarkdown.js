@@ -54,11 +54,14 @@ function generateMarkdown(data) {
     tableOfContents = `
       ## Table of Contents
 
-      * [Installation](#installation)
-      * [Usage](#usage)
-      * [Contributing](#contributing)
-      * [Tests](#tests)
-      * [License](#license)
+      [Installation](##installation)
+      [Usage](##usage)
+      [Collaborators](##collaborators)
+      [Third-Party Assets](##third-party-assets)
+      [Contributing](##contributing)
+      [Tests](##tests)
+      [License](##license)
+      [Questions](##questions)
     `;
   }
 
@@ -74,11 +77,11 @@ function generateMarkdown(data) {
 
   // Generate the third-party assets list
   let thirdPartyAssets = '';
-  if (data['3rd Party Assets']) {
+  if (data['3rd-Party-Assets']) {
     thirdPartyAssets = `
       ## Third-Party Assets
 
-      ${data['3rd Party Assets']}
+      ${data['3rd-Party-Assets']}
     `;
   }
 

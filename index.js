@@ -45,7 +45,7 @@ const questions = [
     {
         type: "input",
         message: "If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.",
-        name: "3rd Party Assets",
+        name: "3rd-Party-Assets",
         default: null
     },
     {
