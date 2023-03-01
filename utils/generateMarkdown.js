@@ -52,16 +52,16 @@ function generateMarkdown(data) {
   let tableOfContents = '';
   if (data.tableOfContents) {
     tableOfContents = `
-      ## Table of Contents
+    ## Table of Contents
 
-      - [Installation](#Installation)
-      - [Usage](#Usage)
-      - [Collaborators](#Collaborators)
-      - [Third-Party Assets](#Third-Party-Assets)
-      - [Contributing](#Contributing)
-      - [Tests](#Tests)
-      - [License](#License)
-      - [Questions](#Questions)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Collaborators](#Collaborators)
+    - [Third-Party Assets](#Third-Party-Assets)
+    - [Contributing](#Contributing)
+    - [Tests](#Tests)
+    - [License](#License)
+    - [Questions](#Questions)
     `;
   }
 
@@ -69,9 +69,9 @@ function generateMarkdown(data) {
   let collaborators = '';
   if (data.collaborators) {
     collaborators = `
-      ## Collaborators
+    ## Collaborators
 
-      ${data.collaborators}
+    ${data.collaborators}
     `;
   }
 
@@ -79,9 +79,9 @@ function generateMarkdown(data) {
   let thirdPartyAssets = '';
   if (data['3rd-Party-Assets']) {
     thirdPartyAssets = `
-      ## Third-Party Assets
+    ## Third-Party Assets
 
-      ${data['3rd-Party-Assets']}
+    ${data['3rd-Party-Assets']}
     `;
   }
 
@@ -89,9 +89,9 @@ function generateMarkdown(data) {
   let contribute = '';
   if (data.contribute) {
     contribute = `
-      ## Contributing
+    ## Contributing
 
-      ${data.contribute}
+    ${data.contribute}
     `;
   }
 
@@ -99,9 +99,9 @@ function generateMarkdown(data) {
   let testing = '';
   if (data.testing) {
     testing = `
-      ## Tests
+    ## Tests
 
-     ${data.testing}
+    ${data.testing}
     `;
   }
 
