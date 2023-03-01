@@ -54,14 +54,14 @@ function generateMarkdown(data) {
     tableOfContents = `
       ## Table of Contents
 
-      - [Installation](##Installation)
-      - [Usage](##Usage)
-      - [Collaborators](##Collaborators)
-      - [Third-Party Assets](##Third-Party-Assets)
-      - [Contributing](##Contributing)
-      - [Tests](##Tests)
-      - [License](##License)
-      - [Questions](##Questions)
+      - [Installation](#Installation)
+      - [Usage](#Usage)
+      - [Collaborators](#Collaborators)
+      - [Third-Party Assets](#Third-Party-Assets)
+      - [Contributing](#Contributing)
+      - [Tests](#Tests)
+      - [License](#License)
+      - [Questions](#Questions)
     `;
   }
 
