@@ -51,18 +51,18 @@ function generateMarkdown(data) {
   // Generate the table of contents
   let tableOfContents = '';
   if (data.tableOfContents) {
-    tableOfContents = `
-    ## Table of Contents
+  tableOfContents = `
+  ## Table of Contents
 
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Collaborators](#Collaborators)
-    - [Third-Party Assets](#Third-Party-Assets)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
-    - [License](#License)
-    - [Questions](#Questions)
-    `;
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Collaborators](#Collaborators)
+  - [Third-Party Assets](#Third-Party-Assets)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Questions](#Questions)
+  `;
   }
 
   // Generate the collaborator list
