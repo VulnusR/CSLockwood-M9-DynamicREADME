@@ -1,10 +1,10 @@
-# sdf
+# dfg
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]([MIT](https://opensource.org/licenses/MIT)) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]((https://opensource.org/licenses/MIT)) 
 
   ## Description
 
-  sdf
+  dfg
 
   
   ## Table of Contents
@@ -21,11 +21,11 @@
 
   ## Installation
 
-  dsfg
+  dfsg
 
   ## Usage
 
-  sdfg
+  sgfd
 
   
   ## Collaborators
@@ -42,7 +42,7 @@
   
   ## Contributing
 
-  sdfg
+  sfdg
   
 
   
@@ -51,12 +51,10 @@
   sdfg
   
 
-  [MIT](https://opensource.org/licenses/MIT)
-
   ## License
     This project is licensed under the MIT license.
 
   ## Questions
 
-  For questions about this project, please see my GitHub at [sfg](https://github.com/sfg), or reach out by email at sdfg.
+  For questions about this project, please see my GitHub at [sfdg](https://github.com/sfdg), or reach out by email at sdfg.
   
