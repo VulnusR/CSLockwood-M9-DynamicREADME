@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case 'MIT':
-      return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
+      return '[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
     case 'Apache License 2.0':
-      return '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)';
+      return '[License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)';
     case 'Berkeley Software Distribution':
-      return '![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)';
+      return '[License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)';
     case 'GPL v3':
-      return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
+      return '[License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
     case 'MPL 2.0':
-      return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)';
+      return '[License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)';
     default:
       return '';
   }
@@ -22,15 +22,15 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
-      return '(https://opensource.org/licenses/MIT)';
+      return 'https://opensource.org/licenses/MIT';
     case 'Apache License 2.0':
-      return '[Apache License 2.0](https://opensource.org/licenses/Apache-2.0)';
+      return 'https://opensource.org/licenses/Apache-2.0';
     case 'Berkeley Software Distribution':
-      return '[BSD 3-Clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause)';
+      return 'https://opensource.org/licenses/BSD-3-Clause';
     case 'GPL v3':
-      return '[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)';
+      return 'GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0';
     case 'MPL 2.0':
-      return '[Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)';
+      return 'Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0';
     default:
       return '';
   }

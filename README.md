@@ -1,10 +1,10 @@
-# dfg
+# asd
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0) 
 
   ## Description
 
-  dfg
+  asd
 
   
   ## Table of Contents
@@ -21,40 +21,40 @@
 
   ## Installation
 
-  dfsg
+  asd
 
   ## Usage
 
-  sgfd
+  asd
 
   
   ## Collaborators
 
-  sdfg
+  asd
   
 
   
   ## Third-Party Assets
 
-  sdfg
+  asd
   
 
   
   ## Contributing
 
-  sfdg
+  asd
   
 
   
   ## Tests
 
-  sdfg
+  asd
   
 
   ## License
-    This project is licensed under the MIT license.
+    This project is licensed under the GPL v3 license.
 
   ## Questions
 
-  For questions about this project, please see my GitHub at [sfdg](https://github.com/sfdg), or reach out by email at sdfg.
+  For questions about this project, please see my GitHub at [asd](https://github.com/asd), or reach out by email at asd.
   
